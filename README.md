@@ -1,6 +1,6 @@
-# toddmotto.github.io
+# edcharbeneau.github.io
 
-Uncompiled [Jekyll](//jekyllrb.com) source code for [toddmotto.com](//toddmotto.com).
+Uncompiled [Jekyll](//jekyllrb.com) source code for [edcharbeneau.com](//edcharbeneau.com).
 
 ### Steps to use
 
@@ -10,4 +10,4 @@ Uncompiled [Jekyll](//jekyllrb.com) source code for [toddmotto.com](//toddmotto.
 
 ### Notes
 
-Despite being open sourced, all and content remain copyright of Todd Motto. Please don't steal!
+Despite being open sourced, all and content remain copyright of Ed Charbeneau. Please don't steal!
