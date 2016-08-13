@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NoFi, detecting offline states with HTML5 @toddmotto | toddmotto.com</title>
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/demo.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="header">
+      <div class="logo">
+        <a href="http://toddmotto.com" target="_blank">
+          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Logo" class="logo-img">
+        </a>
+      </div>
+      <ul class="demo-nav">
+        <li class="demo-nav-link">
+          <a href="http://toddmotto.com/nofi-detecting-no-wifi-callbacks-for-offline-states-with-html5">
+            Go to tutorial
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- main -->
+    <div class="main">
+
+      <h1 class="title online">You're online!</h1>
+      <p class="title__sub">Just kill your internet connection to see the demo.</p>
+
+    </div>
+    <!-- /main -->
+
+    <!-- NoFi -->
+    <script src="js/nofi.js"></script>
+    <script>
+    /**
+     * NoFi configuration
+     */
+    NoFi.init({
+      eventName: 'offline',
+      interval: 1000,
+      exit: true
+    });
+
+    /**
+     * Demo stuff only!
+     */
+    var a = document.querySelector('.title');
+    var b = document.querySelector('.title__sub');
+
+    // wait for internet to die
+    window.addEventListener('offline', function () {
+      // boring callback, but do what you like here
+      a.innerHTML = 'You are offline, oops.';
+      a.className = a.className.replace(/online/, 'offline');
+    });
+
+    // let people know their browser sucks
+    if (!'onLine' in navigator) {
+      a.innerHTML = 'Your browser doesn\'t support this HTML5 feature, try Chrome or another.';
+      b.innerHTML = 'Check out the support on CanIUse.com too ;)';
+    }
+    </script>
+
+    <!-- Analytics (Demo only) -->
+    <script>
+      var _gaq=[['_setAccount','UA-20440416-10'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src='//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+    <!-- Carbon Ads Script (Demo only) -->
+    <script src="http://toddmotto.com/ads/ads.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,38 @@
+/*
+	Echo
+	URL: www.toddmotto.com
+*/
+
+/*------------------------------------*\
+    Echo
+\*------------------------------------*/
+
+body {
+	background:#F0F0F0;
+}
+.main {
+	min-height:1500px;
+	max-width:550px;
+	margin:25px auto;
+	text-align:center;
+}
+.main img {
+	margin:25px 0;
+	height:450px;
+	width:450px;
+	background:#FFF url(../img/ajax.gif) no-repeat center center;
+	border:1px solid #AAA;
+}
+.title {
+	font-size:18px;
+	font-weight:900;
+	margin:0 0 10px;
+}
+.title__code {
+	background:#FFF;
+	border-radius:5px;
+	border:1px solid #CCC;
+	padding:10px 20px;
+	margin:0 0 25px;
+	overflow-x:scroll;
+}

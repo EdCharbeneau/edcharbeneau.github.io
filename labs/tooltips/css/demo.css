@@ -1,0 +1,27 @@
+/*
+	Data Tips v1.0.0
+	URL: www.toddmotto.com
+*/
+
+/*------------------------------------*\
+	Data Tips
+\*------------------------------------*/
+
+.tooltips {
+	
+}
+.tooltips li {
+	display:inline-block;
+	margin:0 50px 0 0;
+	position:relative;
+}
+.tooltip {
+	position:absolute;
+	margin:0 -50%;
+	text-align:center;
+	background:rgba(0,0,0,0.8);
+	color:#FFF;
+	padding:8px 2px;
+	font-size:11px;
+	border-radius:3px;
+}

@@ -1,0 +1,187 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+// Colours
+$white: #fff;
+$blue: #2996d6;
+$purple: #d82c99;
+$text-color: #444;
+$text-color-light: #999;
+$border-color: #E6E6E6;
+$primary-brand: #E05826;
+
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main { display: block; }
+
+html,
+body,
+button,
+input,
+select,
+textarea {
+  font: 400 16px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: $text-color;
+  letter-spacing: 0.5px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #f1f2f1;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+ hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle;
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+input, textarea, button, a {
+  transition: 0.2s color ease,
+              0.2s background ease;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+a {
+  color: $primary-brand;
+  text-decoration: none;
+  &:hover {
+    color: darken($primary-brand, 5%);
+  }
+}
+
+::selection {
+  background: $purple;
+  color: $white;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: $purple;
+  color: $white;
+  text-shadow: none;
+}
+::-webkit-selection {
+  background: $purple;
+  color: $white;
+  text-shadow: none;
+}
+
+/* ==========================================================================
+   Typography styles
+   ========================================================================== */
+
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+  font-family: 'Museo Slab', 'Helvetica', 'Arial', sans-serif;
+  letter-spacing: -1px;
+  line-height: 1.3;
+  margin: 10px 0;
+}
+h1, .alpha {
+  font-size: 40px;
+  margin: 0 0 20px;
+}
+
+h2, .beta {
+  font-size: 30px;
+}
+
+h3, .gamma {
+  font-size: 26px;
+}
+
+h4, .delta {
+  font-size: 22px;
+}
+
+h5, .epsilon {
+  font-size: 20px;
+}
+
+h6, .zeta {
+  font-size: 18px;
+}

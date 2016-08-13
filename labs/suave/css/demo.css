@@ -1,0 +1,42 @@
+/*
+	Psswrd v1.0.0
+	URL: www.toddmotto.com
+*/
+
+/*------------------------------------*\
+    Psswrd
+\*------------------------------------*/
+
+body {
+	background:#F0F0F0;
+}
+.main {
+	max-width:750px;
+	margin:25px auto;
+}
+.markup {
+	font-size:18px;
+	font-weight:900;
+	margin:0 0 10px;
+}
+.markup__code {
+	background:#FFF;
+	border-radius:5px;
+	border:1px solid #CCC;
+	padding:10px 20px;
+	margin:0 0 25px;
+	overflow-x:scroll;
+}
+.markup__code span {
+	color:#2BA6CB;
+}
+.cite {
+	margin:15px 0;
+	text-align:center;
+	font-size:11px;
+	text-transform:uppercase;
+}
+video {
+	width:100%;
+	max-width:100%;
+}

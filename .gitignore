@@ -1,0 +1,11 @@
+# FireShell
+# http://getfireshell.com
+# @author Ed Charbeneau
+
+_site
+node_modules
+.DS_Store
+.tmp
+.sass-cache
+*.sublime-*
+.jekyll-metadata

@@ -1,0 +1,31 @@
+/*
+	NoFi
+	URL: www.toddmotto.com
+*/
+
+/*------------------------------------*\
+  NoFi
+\*------------------------------------*/
+
+body {
+	background:#F0F0F0;
+}
+.main {
+	min-height:1500px;
+	max-width:650px;
+	margin:25px auto;
+	text-align:center;
+}
+.title {
+	font-size:28px;
+	font-weight:900;
+	margin:0 0 10px;
+}
+.online {
+  background: green;
+  color: white;
+}
+.offline {
+  background: red;
+  color: white;
+}
