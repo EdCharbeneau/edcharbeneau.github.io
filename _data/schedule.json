@@ -1,4 +1,14 @@
 [
+    {
+    "event": "Heartland Developer Conference",
+    "location": "Omaha, NE",
+    "date": "2016-08-26",
+    "url": "http://careerlink.com/hdc/",
+    "session": {
+        "title": "ASP.NET Core Changes Every Developer Should Know",
+        "url": "asp-net-core-changes-every-developer-should-know"
+      }
+    },
   {
     "event": "Music City Code",
     "location": "Nashville, TN",
