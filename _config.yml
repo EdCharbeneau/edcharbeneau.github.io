@@ -30,4 +30,4 @@ defaults:
       type: "sessions"
     values:
       layout: "session"
-      date: 2016-08-01
+      date: "2016-08-01"
