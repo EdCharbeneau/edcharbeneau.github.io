@@ -39,7 +39,7 @@ I'm available for keynote and regular speaking slots, and to maximise exposure a
 
 ### Upcoming events
 
-All of my events are currently listed on my [Trello board](https://trello.com/b/bVexzz38/ed-charbeneau-s-speaking-schedule).
+{% include schedule.html %} 
 
 <!--I'm a Developer Advocate at Progress...
 

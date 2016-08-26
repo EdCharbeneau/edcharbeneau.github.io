@@ -1,0 +1,16 @@
+<ul>
+{% for session in site.sessions %}
+
+  <li><a href="{{session.url}}">{{ session.title }}</a></li>
+
+{% endfor %}
+</ul>
+
+<ul>
+{% for item in site.data.schedule %}
+  {% assign session = site.sessions | where: 'key', item.sessionkey %} {% assign session = session[0] %}
+
+  <li><a href="{{item.url}}">{{item.event}}</a> ({{ item.place }}) - <a href="{{session.url}}">{{ session.title }}</a></li>
+
+{% endfor %}
+</ul>

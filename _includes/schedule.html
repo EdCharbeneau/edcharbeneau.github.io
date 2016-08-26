@@ -1,0 +1,13 @@
+<h3>
+  Past Events</h3>
+<ul class="past"></ul>
+<h3>Future Events</h3>
+<ul class="future"></ul>
+
+<script src="/javascript/session-list.js"></script>
+<script>
+document.querySelector('.past').innerHTML = mapScheduleToTemplate({{ site.data.schedule | jsonify }}, template, ev => new Date(ev.date) < new Date());
+
+document.querySelector('.future').innerHTML = mapScheduleToTemplate({{ site.data.schedule | jsonify }}, template, ev => new Date(ev.date) > new Date());
+
+</script>

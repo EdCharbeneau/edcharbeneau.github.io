@@ -1,0 +1,43 @@
+[
+  {
+    "event": "Music City Code",
+    "location": "Nashville, TN",
+    "date": "2016-08-18",
+    "url": "http: //musiccitycode.com",
+    "session": {
+        "title": "Going All in with C#",
+        "url": "going-all-in-with-functional-csharp"
+      }
+    },
+     {
+    "event": "Music City Code",
+    "location": "Nashville, TN",
+    "date": "2016-08-19",
+    "url": "http: //musiccitycode.com",
+    "session": {
+        "title": "Journey to JavaScript",
+        "url": "journey-to-javascript"
+      }
+    },
+    {
+    "event": "Music City Code",
+    "location": "Nashville, TN",
+    "date": "2016-08-19",
+    "url": "http: //musiccitycode.com",
+    "session": {
+        "title": "A Crash Course in Responsive Design",
+        "url": "a-crash-course-in-responsive-design"
+      }
+    },
+    {
+    "event": "Atlanta .NET Meetup",
+    "location": "Atlanta, GA",
+    "date": "2016-08-26",
+    "url": "https://www.meetup.com/Atlanta-Net-User-Group/events/228782720/",
+    "session": {
+        "title": "Giving Clarity to LINQ Queries by Extending Expressions",
+        "url": "a-crash-course-in-responsive-design"
+      }
+    }
+    
+]

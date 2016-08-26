@@ -19,3 +19,14 @@ markdown: kramdown
 
 # Gems
 gems: [jekyll-paginate]
+
+collections:
+  sessions:
+    output: true
+
+defaults:
+  -
+    scope:
+      type: "sessions"
+    values:
+      layout: "post"
