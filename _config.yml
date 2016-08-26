@@ -18,7 +18,7 @@ sass:
 markdown: kramdown
 
 # Gems
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, github-pages]
 
 collections:
   sessions:
@@ -29,4 +29,5 @@ defaults:
     scope:
       type: "sessions"
     values:
-      layout: "post"
+      layout: "session"
+      date: 2016-08-01
