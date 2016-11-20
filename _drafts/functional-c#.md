@@ -10,7 +10,6 @@ One of the fundamental reasons that extension methods exist is to support Langua
 
 ASP.NET MVC is another popular place you may have encountered extension methods. Extension methods are used throughout MVC to provide what is affectionately been named syntactic sugar. This is when a method is created to make the API easier to use or understand. Extension methods are found in View code as HTML Helpers and also found in application code like Middleware. Often times these methods are abstractions built upon more complex methods with many parameters. The abstractions allow developers to use the easier API calls while behind the scenes overloaded methods are called.
 
-    // better example needed here, dig in to some source code
     // @Html.LabelFor(parameters)
 
     // app.UseSomeMiddleware()
@@ -19,7 +18,24 @@ Now that we know how to recognize extension methods, let's understand how they w
 
 ## The Anatomy of an Extension Method
 
-## Creating an Extension Method
+Like most methods, extension methods have a return type, a method name, and can accept parameters. The extension method uses an additional `this` keyword in the parameter declaration.
+
+The this keyword in an extension method carries a special importance. The this keyword and the type that follows identifies which type will be extended. For example, if we wanted to extend a `String` object, than the parameter declaration would be `(this String s)`.
+
+    public static class StringExtensionMethods {
+        public static String UppercaseFirst(this String s) {
+            // Make the first letter of the string capital
+            return string.IsNullOrEmpty(s) ? string.Empty :
+            char.ToUpper(s[0]) + s.Substring(1);
+        }
+    }
+
+    //usage
+
+    var message = "hello world";
+    message.UppercaseFirst(); // result => "Hello world"
+
+The return type of an extension method can be of any type. Often extension methods will return a type that allows additional methods to be chained.
 
 ## Wrapping up
 

@@ -38,4 +38,12 @@
 - Source code
 - Life cycles
 
-##  
+## Bootstrap
+
+- The basics
+- Boxmodel
+- Floats
+- Containers
+- Rows
+- Columns
+- JavaScript onResize()
