@@ -1,4 +1,4 @@
-<section class="post text-xs-center">
+<section class="post">
     <header class="post__header">
         <h1 class="alpha post__title">
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -9,7 +9,7 @@
     </header>
     <div class="post__content">
         <p>
-            {{ post.content | strip_html | truncatewords: 80 }}
+            {{ post.content | strip_html | truncatewords: 60 }}
         </p>
     </div>
     <div class="post__button">

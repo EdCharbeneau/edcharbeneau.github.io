@@ -1,0 +1,20 @@
+.post__title {
+    @extend .display-4;
+    font-size:3.2rem;
+}
+.post__meta {
+    @extend .text-muted;
+    @extend .lead;
+    a {
+        color: $brand-info;
+        transition: all 0.4s;
+        &:hover {
+        transition: all 0.4s;
+            color: darken($color: $brand-info, $amount: 20);
+            text-decoration: none;
+        }
+    }
+}
+.post__content {
+    @extend .lead;
+}

@@ -1,0 +1,11 @@
+.btn {
+    background-color: transparent;
+    transition: all 0.2s;
+    color: $brand-primary;
+    padding: 1rem 2rem;
+    border-radius: .25rem;
+    &:hover {
+        background-color: $brand-primary;
+        transition: all 0.2s;    
+    }
+}
