@@ -1,13 +1,23 @@
 <!doctype html>
 <html>
-  {% include head.html %}
-  <body>
-    <div class="wrapper">
-      {% include header.html %}
-      <main class="content">
-        {{ content }}
-      </main>
-      {% include footer.html %}
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+  <main class="content container">
+
+    <div class="row">
+      <div class="col-sm-6 cover">
+
+      </div>
+      <div class="col-sm-6 cover-bio">
+        <p>I'm Ed Charbeneau, web enthusiast, speaker, writer, design admirer, and Developer Advocate for Progress.</p>
+      </div>
     </div>
-  </body>
+
+    {{ content }}
+  </main>
+
+</body>
+
 </html>

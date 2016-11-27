@@ -1,0 +1,20 @@
+<section class="post text-xs-center">
+    <header class="post__header">
+        <h1 class="alpha post__title">
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h1>
+        <span class="post__meta">
+        Posted on {{ post.date | date: "%b %-d, %Y" }} by <a href="//twitter.com/edcharbeneau" target="_blank">Ed Charbeneau</a>
+      </span>
+    </header>
+    <div class="post__content">
+        <p>
+            {{ post.content | strip_html | truncatewords: 80 }}
+        </p>
+    </div>
+    <div class="post__button">
+        <a class="btn btn-primary" href="{{ post.url | prepend: site.baseurl }}" title="Read {{ post.title }}">
+        Read more
+      </a>
+    </div>
+</section>
