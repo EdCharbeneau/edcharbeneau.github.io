@@ -1,0 +1,67 @@
+.site-header {
+    nav {
+        padding:0;
+        margin-bottom:-55px;
+        z-index: 99999;
+    }
+}
+
+.site-nav {
+    ul {
+        list-style: none;
+        margin:0;
+        padding:0 0 0 3rem;
+        text-transform: uppercase;
+        overflow:hidden;
+        li {
+            float: left;
+            a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: .5rem 1rem;
+                text-decoration: none;
+                &:hover {
+                    background-color: $gray-lightest;
+                    color: $brand-info;
+                    border-radius: .25rem;
+                }
+            }
+        }
+    }
+}
+
+.site-nav {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    height: 100%;
+    border-radius: 0 0 0 1rem;
+    background-color: $brand-primary;
+}
+
+.logo-area {
+    clear:both;
+    background-color: $gray-dark;
+    padding:1em;
+    img {
+        height:64px;
+        width:64px;
+        border-radius: 50%;
+        border: 3px solid $brand-info;
+        float:left;
+    }
+    h1 {
+        color: $brand-info;
+        font-size: 32px;
+        margin:10px;
+        float:left;
+    }
+    a {
+        color: $brand-info;
+        transition: all .2s;
+        &:hover {
+            text-decoration: none;
+            color: darken($color: $brand-info, $amount: 20)
+        }
+    }
+}

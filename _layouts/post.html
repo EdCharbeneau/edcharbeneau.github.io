@@ -1,12 +1,14 @@
+--- 
+layout: default 
 ---
-layout: default
----
-<article class="post single">
-  <header class="post__header">
-    <h1 class="alpha post__title" itemprop="name headline">
-      {{ page.title }}
-    </h1>
-    <span class="post__meta">
+<section class="row">
+  <div class="col-sm-12">
+    <article class="post single">
+      <header class="post__header">
+        <h1 class="alpha post__title" itemprop="name headline">
+          {{ page.title }}
+        </h1>
+        <span class="post__meta">
     	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
     		Posted on {{ page.date | date: "%b %-d, %Y" }}
     	</time>
@@ -17,83 +19,44 @@ layout: default
       </a>
       {% endif %}
     </span>
-  </header>
-  <!-- Ads appear here -->
-  
-  <section class="post__content">
-    <!--<div class="post__ad">
-      <div id="carbonads-container">
-        <div class="carbonad">
-          <div id="azcarbon"></div>
-        </div>
+      </header>
+
+      <section class="post__content">
+        {{ content }}
+      </section>
+
+      <div class="share">
+        <div class="addthis_sharing_toolbox"></div>
       </div>
-      <script>
-      (function (a) {
-        var carbon = document.createElement(a);
-        carbon.async = carbon.src = '//engine.carbonads.com/z/20676/azcarbon_2_1_0_HORIZ';
-        var s = document.getElementsByTagName(a)[0];
-        s.parentNode.insertBefore(carbon, s);
-      })('script');
-      </script>
-    </div>  -->
-    {{ content }}
-  </section>
-
-  <div class="share">
-    <div class="addthis_sharing_toolbox"></div>
+    </article>
   </div>
-</article>
 
-<div class="author">
-  <div class="author__content">
-    <div class="author__pic">
-      <img src="{{ site.baseurl }}/img/ed-avatar.jpg" alt="Ed Charbeneau">
+  <div class="author col-sm-12">
+    <div class="author__content row">
+      <div class="author__pic col-sm-2">
+        <img src="{{ site.baseurl }}/img/ed-avatar.jpg" alt="Ed Charbeneau">
+      </div>
+      <div class="author__bio col-sm-10">
+        <h3>
+          Ed Charbeneau
+        </h3>
+        <p>
+          I'm Ed Charbeneau, web enthusiast, speaker, writer, design admirer, and Developer Advocate for Progress.
+        </p>
+        <a href="https://twitter.com/edcharbeneau" class="twitter-follow-button" data-show-count="true"></a>
+      </div>
     </div>
-    <div class="author__bio">
-      <h3>
-        Ed Charbeneau
+  </div>
+
+  <aside class="similar row">
+    <div class="similar__content col-sm-12">
+      <h3 class="similar__title">
+        Other posts
       </h3>
-      <p>
-              I'm Ed Charbeneau, web enthusiast, speaker, writer, design admirer, and Developer Advocate for Progress.
-      </p>
-      <a href="https://twitter.com/edcharbeneau" class="twitter-follow-button" data-show-count="true"></a>
+      <ul class="similar__posts list-group"></ul>
     </div>
-  </div>
-</div>
-<!--<div class="signup">
-  <div id="mc_embed_signup">
-    <form action="//toddmotto.us12.list-manage.com/subscribe/post?u=fb4d73e892f0d123a57dbd8bc&amp;id=0653182c3c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <div id="mc_embed_signup_scroll">
-      <h3 class="signup__title">Never miss an article!</h3>
-      <p class="signup__sub">All the awesomeness straight to your inbox. Plus exclusive workshop and training discounts, and more!</p>
-      <div class="mc-field-group">
-        <input type="email" placeholder="Email address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-      </div>
-      <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-      </div>
-      <div style="position: absolute; left: -5000px;" aria-hidden="true">
-        <input type="text" name="b_fb4d73e892f0d123a57dbd8bc_0653182c3c" tabindex="-1" value=""></div>
-        <div class="clear">
-        <button type="submit" name="subscribe" id="mc-embedded-subscribe">
-          Sign up
-          <img src="{{ site.baseurl }}/img/icons/next.svg" alt="">
-        </button>
-        </div>
-      </div>
-    </form>
-  </div>
-</div> -->
-<aside class="similar">
-  <div class="similar__content">
-    <h3 class="similar__title gamma">
-      Other posts
-    </h3>
-    <ul class="similar__posts"></ul>
-  </div>
-</aside>
-<script>
+  </aside>
+  <script>
 /*! linkjuice.js v1.0.0 | (c) 2016 @toddmotto | https://github.com/toddmotto/linkjuice */
 (function (global, factory) {
   if (typeof define === "function" && define.amd) {
@@ -151,7 +114,7 @@ linkjuice.init('.post__content', {
   icon: '<i class="linkjuice__icon"></i>'
 });
 </script>
-<script>
+  <script>
 var data = [{% for post in site.posts %}{
   title:'{{ post.title }}',
   date:'{{ post.date | date: "%b %-d, %Y" }}',
@@ -163,17 +126,12 @@ var JekyllRandom = (function () {
   function template(post) {
     var div = document.createElement('div');
     div.innerHTML = [
-      '<li>',
-        '<a href="' + post.url + '">',
-          '<div class="similar__icon">',
-            '<img src="{{ site.baseurl }}/img/icons/more.svg" alt="' + post.title + '">',
-          '</div>',
-          '<h3>',
+      '<li class="list-group-item" >',
+        '<a class="text-info" href="' + post.url + '">',
             post.title,
-            '<span>',
+          '<span class="tag tag-default tag-pill float-xs-right">',
               'Posted on ' + post.date,
-            '</span>',
-          '</h3>',
+          '</span>',
         '</a>',
       '</li>'
     ].join('');
@@ -205,11 +163,11 @@ var JekyllRandom = (function () {
 JekyllRandom('.similar__posts', data);
 </script>
 
-<div class="disqus">
-  <div id="disqus_thread"></div>
-</div>
-<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-567a0f80a03a6fbe" async></script>
-<script>
+  <div class="disqus">
+    <div id="disqus_thread"></div>
+  </div>
+  <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-567a0f80a03a6fbe" async></script>
+  <script>
   var disqus_url = ({%if page.disqus %}'{{ page.disqus }}'{%else %}'http://edcharbeneau.com{{ page.url }}'{% endif %}).replace(/\/$/, '');
   var disqus_title = '{{ page.title }}';
   var disqus_shortname = 'edcharbeneau';

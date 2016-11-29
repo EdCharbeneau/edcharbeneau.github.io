@@ -1,50 +1,22 @@
 --- 
 layout: default 
 ---
+
+<div class="row">
+    <div class="col-sm-6 cover">
+
+    </div>
+    <div class="col-sm-6 cover-bio">
+        <p>I'm Ed Charbeneau, web enthusiast, speaker, writer, design admirer, and Developer Advocate for Progress.</p>
+        <p><a href="/about.html" class="btn btn-secondary">About Me</a></p>
+    </div>
+</div>
+
+
 <section class="row">
     <div class="posts col-sm-12">
-        {% for post in paginator.posts %}
-            {% include headline.html %}
-        {% endfor %}
+        {% for post in paginator.posts %} {% include headline.html %} {% endfor %}
     </div>
 </section>
 
-<div class="pagination">
-    <ul>
-        <li id="pagination-prev">
-            {% if paginator.previous_page %}
-            <a class="pagination-button" href="{{ paginator.previous_page_path }}">
-                <img src="{{ site.baseurl }}/img/icons/prev.svg" alt="">
-            </a>
-            {% else %}
-            <span>
-          <img src="{{ site.baseurl }}/img/icons/prev.svg" alt="">
-        </span> {% endif %}
-        </li>
-
-        {% for page in (1..paginator.total_pages) %} {% if page == paginator.page %}
-        <li>
-            <span id="current-page">{{ page }}</span>
-        </li>
-        {% elsif page == 1 %}
-        <li>
-            <a href="/">{{ page }}</a>
-        </li>
-        {% else %}
-        <li>
-            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-        </li>
-        {% endif %} {% endfor %}
-
-        <li id="pagination-next">
-            {% if paginator.next_page %}
-            <a class="pagination-button" href="{{ paginator.next_page_path }}">
-                <img src="{{ site.baseurl }}/img/icons/next.svg" alt="">
-            </a>
-            {% else %}
-            <span>
-          <img src="{{ site.baseurl }}/img/icons/next.svg" alt="">
-        </span> {% endif %}
-        </li>
-    </ul>
-</div>
+{% include pagnation.html %}

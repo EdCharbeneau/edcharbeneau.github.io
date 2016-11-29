@@ -1,89 +1,9 @@
-@import "century.variables";
-@import "century.vendor";
-@import "century.buttons";
-@import "century.post";
-
-.no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
-}
-
-.site-header {
-    nav {
-        padding:0;
-        margin-bottom:-55px;
-        z-index: 99999;
-    }
-}
-
-.site-nav {
-    ul {
-        list-style: none;
-        margin:0;
-        padding:0;
-        overflow:hidden;
-        li {
-            float: left;
-            a {
-                display: block;
-                color: white;
-                text-align: center;
-                padding: 16px;
-                text-decoration: none;
-                &:hover {
-                    background-color: #111;
-                }
-            }
-        }
-    }
-}
-
-.site-nav {
-    padding-top: 2.5rem;
-    padding-bottom: 3.3rem;
-    height: 100%;
-    border-radius: 0 0 0 1rem;
-    background-color: $brand-primary;
-}
-
-.site-footer {
-
-}
-
-.logo-area {
-    clear:both;
-    background-color: $gray-dark;
-    padding:1em;
-    img {
-        height:64px;
-        width:64px;
-        border-radius: 50%;
-        border: 3px solid $brand-info;
-        float:left;
-    }
-    h1 {
-        color: $brand-info;
-        font-size: 32px;
-        margin:10px;
-        float:left;
-    }
-}
-
-.cover {
-    background-image: url('../img/stirtrek-headshot.jpg');
-    background-position-y: -42px;
-    height:300px;
-    border-radius: 0 0 0 1rem;
-}
-.cover-bio {
-    background-color: $brand-info;
-    color: $gray-lighter;
-    border-radius: 0 0 1rem 0;
-    height:300px;
-    font-size: 22px;
-    padding-top: 65px;}
-
-.post {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+@import "century.variables",
+        "century.vendor",
+        "century.utility",
+        "century.typography",
+        "century.buttons",
+        "century.post",
+        "century.header",
+        "century.footer",
+        "century.cover";

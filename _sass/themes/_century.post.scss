@@ -1,3 +1,7 @@
+.post {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
 .post__title {
     @extend .display-4;
     font-size:3.2rem;
@@ -17,4 +21,13 @@
 }
 .post__content {
     @extend .lead;
+}
+
+.post.single {
+        margin-top: 85px;
+}
+
+.author__pic img {
+    max-width: 150px;
+    border-radius: 50%;
 }

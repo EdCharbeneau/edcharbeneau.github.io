@@ -1,0 +1,15 @@
+.cover {
+    background-image: url('../img/ed-speaking1.jpg');
+    height:300px;
+    border-radius: 0 0 0 1rem;
+}
+.cover-bio {
+    background-color: $brand-info;
+    color: $gray-lighter;
+    border-radius: 0 0 1rem 0;
+    height:300px;
+    font-size: 22px;
+    padding-top: 85px;
+    text-align: center;
+}
+
