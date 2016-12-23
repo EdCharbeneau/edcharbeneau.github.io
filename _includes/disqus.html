@@ -1,0 +1,14 @@
+<div class="disqus">
+  <div id="disqus_thread"></div>
+</div>
+
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-567a0f80a03a6fbe" async></script>
+
+<script>
+  var disqus_url = ({%if page.disqus %}'{{ page.disqus }}'{%else %}'http://edcharbeneau.com{{ page.url }}'{% endif %}).replace(/\/$/, '');
+  var disqus_title = '{{ page.title }}';
+  var disqus_shortname = 'edcharbeneau';
+  var dsq = document.createElement('script');
+  dsq.async = dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  document.getElementsByTagName('head')[0].appendChild(dsq);
+</script>
