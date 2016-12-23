@@ -12,10 +12,21 @@ layout: default
     </div>
 </div>
 
-
-<section class="row">
-    <div class="posts col-sm-12">
-        {% for post in paginator.posts %} {% include headline.html %} {% endfor %}
+<section class="row post--wrapper">
+    <div class="posts col-sm-12 col-md-8">
+        {% for post in paginator.posts %} 
+            {% include headline.html %}
+        {% endfor %}
+    </div>
+    <div class="col-sm-12 col-md-4">
+        <div class="card card-outline-info">
+        <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+        <div class="card-block">
+            <h4 class="card-title">Podcast</h4>
+            <p class="card-text">Software development is my passion, hobby, and career. I love talking to other developers who feel the same, that's why I started Eat Sleep Code. The only Offical Telerik Podcast.</p>
+            <a href="#" class="btn btn-info--inverted">Listen <i class="fa fa-soundcloud" aria-hidden="true"></i></a>
+        </div>
+        </div>
     </div>
 </section>
 

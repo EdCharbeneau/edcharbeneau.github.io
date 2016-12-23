@@ -19,4 +19,24 @@
             background-color: $gray-lightest;
         }
     }
+
+    &.btn-info {
+        border-color: $brand-info;
+        color: $brand-info;
+        &:hover {
+            background-color: $brand-info;
+            color: $gray-lightest;
+        }
+
+        &--inverted {
+            background-color: $brand-info;
+            color: $gray-lightest;
+            border-color: $brand-info;
+
+            &:hover {
+                background-color: $gray-lightest;
+                color: $brand-info;
+            }
+        }
+    }
 }

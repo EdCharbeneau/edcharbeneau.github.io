@@ -31,12 +31,12 @@ layout: default
     </article>
   </div>
 
-  <div class="author col-sm-12">
-    <div class="author__content row">
+  <div class="author">
+    <div class="author__content">
       <div class="author__pic col-sm-2">
         <img src="{{ site.baseurl }}/img/ed-avatar.jpg" alt="Ed Charbeneau">
       </div>
-      <div class="author__bio col-sm-10">
+      <div class="author__bio">
         <h3>
           Ed Charbeneau
         </h3>
@@ -56,7 +56,10 @@ layout: default
       <ul class="similar__posts list-group"></ul>
     </div>
   </aside>
-  <script>
+
+</section>
+
+<script>
 /*! linkjuice.js v1.0.0 | (c) 2016 @toddmotto | https://github.com/toddmotto/linkjuice */
 (function (global, factory) {
   if (typeof define === "function" && define.amd) {
@@ -114,7 +117,9 @@ linkjuice.init('.post__content', {
   icon: '<i class="linkjuice__icon"></i>'
 });
 </script>
-  <script>
+
+
+<script>
 var data = [{% for post in site.posts %}{
   title:'{{ post.title }}',
   date:'{{ post.date | date: "%b %-d, %Y" }}',
@@ -163,11 +168,13 @@ var JekyllRandom = (function () {
 JekyllRandom('.similar__posts', data);
 </script>
 
-  <div class="disqus">
-    <div id="disqus_thread"></div>
-  </div>
-  <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-567a0f80a03a6fbe" async></script>
-  <script>
+<div class="disqus">
+  <div id="disqus_thread"></div>
+</div>
+
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-567a0f80a03a6fbe" async></script>
+
+<script>
   var disqus_url = ({%if page.disqus %}'{{ page.disqus }}'{%else %}'http://edcharbeneau.com{{ page.url }}'{% endif %}).replace(/\/$/, '');
   var disqus_title = '{{ page.title }}';
   var disqus_shortname = 'edcharbeneau';
