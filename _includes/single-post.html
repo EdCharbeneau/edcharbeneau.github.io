@@ -1,0 +1,28 @@
+<article class="post single">
+    <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+            <header class="post__header">
+                <h1 class="alpha post__title" itemprop="name headline">
+                    {{ page.title }}
+                </h1>
+                <span class="post__meta">
+                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                    Posted on {{ page.date | date: "%b %-d, %Y" }}
+                </time>
+            	{% if page.path %}
+                 - <a class="post__edit" href="//github.com/edcharbeneau/edcharbeneau.github.io/blob/master/{{ page.path }}">
+                Edit this page on GitHub</a>
+                {% endif %}
+                </span>
+            </header>
+
+            <section class="post__content">
+                {{ content }}
+            </section>
+
+            <div class="share">
+                <div class="addthis_sharing_toolbox"></div>
+            </div>
+        </div>
+    </div>
+</article>
