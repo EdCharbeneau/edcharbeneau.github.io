@@ -1,8 +1,13 @@
+
 .site-header {
     nav {
         padding:0;
-        margin-bottom:-55px;
+        margin-bottom:-15px;
         z-index: 99999;
+
+        @include media-breakpoint-up(md) {
+            margin-bottom:-55px;
+        }
     }
 }
 
@@ -10,9 +15,14 @@
     ul {
         list-style: none;
         margin:0;
-        padding:0 0 0 3rem;
+        padding:0 0 0 1rem;
         text-transform: uppercase;
         overflow:hidden;
+
+        @include media-breakpoint-up(md) {
+            padding:0 0 0 3rem;        
+        }
+
         li {
             float: left;
             a {
@@ -33,29 +43,35 @@
 }
 
 .site-nav {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
     height: 100%;
     border-radius: 0 0 0 1rem;
     background-color: $brand-primary;
+    @include media-breakpoint-up(lg) {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;    
+    }
+
 }
 
 .logo-area {
     clear:both;
     background-color: $gray-dark;
     padding:1em;
-    img {
-        height:64px;
-        width:64px;
-        border-radius: 50%;
-        border: 3px solid $brand-info;
-        float:left;
-    }
+
     h1 {
         color: $brand-info;
-        font-size: 32px;
-        margin:10px;
-        float:left;
+        float:none;
+        text-align:center;
+        margin:2px;
+        font-size:1em;
+        
+        @include media-breakpoint-up(md) {
+            font-size: 2em;
+            margin:10px;
+            float:left;
+        }
     }
     a {
         color: $brand-info;
@@ -65,4 +81,6 @@
             color: darken($color: $brand-info, $amount: 20)
         }
     }
+
 }
+

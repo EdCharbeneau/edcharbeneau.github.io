@@ -4,13 +4,27 @@
     border-radius: 0 1rem  0 0;
     margin-top: 4rem;
     padding-top: 2rem;
+    
+    ul
+    {
+        list-style:none;
+        margin:0;
+        padding: 0 0 0 3rem;
+        li a {
+            color: $gray-lightest;
+        }
+    }
 }
 
 .copyright {
     background: $gray;
     height: 4rem;
-    margin-top: 10rem;
     padding: 1.2rem;
     color: $gray-lightest;
     text-align: center;
+    @include media-breakpoint-up(md) {
+    margin-top: 10rem;
+    }
+
 }
+
