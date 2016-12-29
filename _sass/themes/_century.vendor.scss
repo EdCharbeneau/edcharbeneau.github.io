@@ -1,1 +1,3 @@
+/* ghpages doesnt like to resolve the node_modules directory, 
+so bootstrap got moved to a vendor directory */ 
 @import "./vendor/bootstrap/scss/bootstrap.scss";
