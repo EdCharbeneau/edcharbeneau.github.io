@@ -47,3 +47,23 @@
 - Rows
 - Columns
 - JavaScript onResize()
+- Sass
+
+## Angular with .NET Core
+
+- Angular basics
+    - Component archtecture
+- Prerequsites
+    - TypeScript
+    - Webpack
+- Angular on the client side
+    - Razor?
+- ASP.NET Core and Angular
+    - ASP.NET Core formerly WebAPI
+    - Client Server Senarios
+- ASP.NET CLI
+- ASP.NET Core Templates
+    - Yeoman
+    - Template pack
+- Hello Angular 2
+- Building a slingle project applicaiton
