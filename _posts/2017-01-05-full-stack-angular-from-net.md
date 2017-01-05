@@ -13,4 +13,4 @@ Whether you underestimated Angular 2 or believed in its complete success, it's t
 
 In this article we'll learn how to create the database, server-side and client-side bits of an application and we'll do it all in a single .NET project.
 
-You can read the full article [Single Project Full-Stack Angular 2 at Developer.Telerik.com](http://developer.telerik.com/products/kendo-ui/single-project-full-stack-angular).
+You can read the full article [Single Project Full-Stack Angular 2 at Developer.Telerik.com](http://developer.telerik.com/products/kendo-ui/single-project-full-stack-angular/?ref=edcharbeneau).
