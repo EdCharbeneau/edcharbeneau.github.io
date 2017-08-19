@@ -1,92 +1,52 @@
 [
   {
-    "event": "Code Camp NYC",
-    "location": "Midtown Manhattan, NYC, NY",
-    "date": "2016-10-08",
-    "url": "http://codecampnyc.org/",
+    "event": "Visual Studio Toolbox",
+    "location": "Channel 9, Seattle",
+    "date": "2017-09-28",
+    "url": "https://channel9.msdn.com/Shows/Visual-Studio-Toolbox",
     "session": {
-      "title": "Giving Clarity to LINQ Queries by Extending Expressions",
-      "url": "giving-clarity-to-LINQ-by-extending-expressions"
+      "title": "Angular the .NET Pitch",
+      "url": "angular-the-dotnet-pitch"
     }
   },
-  {
-    "event": "Code Camp NYC",
-    "location": "Midtown Manhattan, NYC, NY",
-    "date": "2016-10-08",
-    "url": "http://codecampnyc.org/",
+    {
+    "event": "DevReach",
+    "location": "Sofia, Bulgaria",
+    "date": "2017-11-13",
+    "url": "http://devreach.com/",
     "session": {
-      "title": "Don’t be a stereotype, rapid prototype",
-      "url": "dont-be-a-stereotype-rapid-prototype"
+      "title": "Angular the .NET Pitch",
+      "url": "angular-the-dotnet-pitch"
     }
   },
-  {
-    "event": "Code Camp NYC",
-    "location": "Midtown Manhattan, NYC, NY",
-    "date": "2016-10-08",
-    "url": "http://codecampnyc.org/",
+    {
+    "event": "Heartland Developers Conference (HDC)",
+    "location": "Omaha, Nebraska",
+    "date": "2017-09-08",
+    "url": "http://careerlink.com/hdc/",
     "session": {
-      "title": "Refactoring CSS with Sass",
-      "url": "refactoring-css-with-sass"
+      "title": "Into the Next Dimension",
+      "url": "into-the-next-dimension"
     }
   },
   {
     "event": "DevUp",
     "location": "St. Louis, MO",
-    "date": "2016-10-22",
+    "date": "2017-10-16",
     "url": "http://devupconf.org/",
     "session": {
-      "title": "ASP.NET Core Changes Every Developer Should Know",
-      "url": "asp-net-core-changes-every-developer-should-know"
-    }
-  },
-  {
-    "event": "Heartland Developer Conference",
-    "location": "Omaha, NE",
-    "date": "2016-09-09",
-    "url": "http://careerlink.com/hdc/",
-    "session": {
-      "title": "ASP.NET Core Changes Every Developer Should Know",
-      "url": "asp-net-core-changes-every-developer-should-know"
-    }
-  },
-  {
-    "event": "Music City Code",
-    "location": "Nashville, TN",
-    "date": "2016-08-18",
-    "url": "http: //musiccitycode.com",
-    "session": {
-      "title": "Going All in with C#",
+      "title": "Going All In With C#",
       "url": "going-all-in-with-functional-csharp"
     }
   },
-  {
-    "event": "Music City Code",
-    "location": "Nashville, TN",
-    "date": "2016-08-19",
-    "url": "http: //musiccitycode.com",
-    "session": {
-      "title": "Journey to JavaScript",
-      "url": "journey-to-javascript"
-    }
-  },
-  {
-    "event": "Music City Code",
-    "location": "Nashville, TN",
-    "date": "2016-08-19",
-    "url": "http: //musiccitycode.com",
-    "session": {
-      "title": "A Crash Course in Responsive Design",
-      "url": "a-crash-course-in-responsive-design"
-    }
-  },
-  {
-    "event": "Atlanta .NET Meetup",
-    "location": "Atlanta, GA",
-    "date": "2016-08-26",
-    "url": "https://www.meetup.com/Atlanta-Net-User-Group/events/228782720/",
+    {
+    "event": "DevSpace",
+    "location": "Huntsville, AL",
+    "date": "2017-10-13",
+    "url": "https://www.devspaceconf.com/",
     "session": {
       "title": "Giving Clarity to LINQ Queries by Extending Expressions",
-      "url": "a-crash-course-in-responsive-design"
+      "url": "giving-clarity-to-LINQ-by-extending-expressions"
     }
   }
 ]

@@ -18,7 +18,7 @@ sass:
 markdown: kramdown
 
 # Gems
-gems: [jekyll-paginate, github-pages]
+plugins: [jekyll-paginate, github-pages]
 
 collections:
   sessions:
