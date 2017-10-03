@@ -4,12 +4,12 @@ layout: page
 class: about
 ---
 
-Ed is a Microsoft MVP and an internationally recognized online influencer, speaker, writer, design admirer, a Developer Advocate for Progress, and expert on all things web development. Ed enjoys geeking out to cool new tech, brainstorming about future technology, and admiring great design.
+Ed is a Microsoft MVP and an international speaker, writer, online influencer, a Developer Advocate for Progress, and expert on all things web development. Ed enjoys geeking out to cool new tech, brainstorming about future technology, and admiring great design.
 
 Ed has shared his insights, experiences, and advice around collaboration, knowledge management, social computing, and training at many industry events around the United States. Highly ethical and engaging with an uncanny business acumen, he is a creative community builder and outside the box thinker. Long term business relationships throughout the world within internal communications, employee engagement and marketing as well as IT. Focusing on Financial, Healthcare, Manufacturing, Agency and Professional Services. He has defined, architected, implemented line of business solutions with a touch of style and UX best practices.
 
 <div class="about__talk">
-  <img src="img/stirtrek-headshot.jpg">
+  <img src="img/vs-toolbox-cover.jpg">
 </div>
 
 Specialties: Ability to learn, master and communicate new technologies, Visual Studio, C#, JavaScript, .NET, Angular, Entity Framework, user experience design (UX), responsive web design, clean coding practices, social networking and media, collaboration, Twitter and Facebook.
