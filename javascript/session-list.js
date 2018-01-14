@@ -7,7 +7,10 @@ function mapScheduleToTemplate(schedule, itemTemplate, filterBy) {
                
   function template(sch) {
   	return [
-    	'<li>',
+      '<li>',
+       '<span>',
+           sch.date,
+        '<br/></span>',
       	'<a href="sessions/' + sch.session.url + '">',
           sch.session.title,
         '</a> ',
@@ -15,9 +18,6 @@ function mapScheduleToTemplate(schedule, itemTemplate, filterBy) {
           sch.event,
           " - ",
         sch.location + ', ',
-        '<span>',
-        	sch.date,
-        '</span>',
     	'</li>',
     ].join('');
   }
