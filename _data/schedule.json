@@ -1,15 +1,65 @@
 [
   {
-    "event": "Visual Studio Toolbox",
-    "location": "Channel 9, Seattle",
-    "date": "2017-09-28",
-    "url": "https://channel9.msdn.com/Shows/Visual-Studio-Toolbox",
+    "event": "Stirtrek",
+    "location": "Columbus, OH",
+    "date": "2018-05-04",
+    "url": "https://www.stirtrek.com",
+    "session": {
+      "title": "TBD",
+      "url": "#"
+    }
+  },
+  {
+    "event": "Code PaLOUsa",
+    "location": "Louisville, KY",
+    "date": "2018-03-27",
+    "url": "https://www.codepalousa.com",
+    "session": {
+      "title": "TBD",
+      "url": "#"
+    }
+  },
+  {
+    "event": "ProgressNext",
+    "location": "The Westin Boston Waterfront: Boston, MA",
+    "date": "2018-05-29",
+    "url": "https://www.progress.com/next",
+    "session": {
+      "title": "TBD",
+      "url": "#"
+    }
+  },
+  {
+    "event": "South Florida Code Camp",
+    "location": "Nova University: Davie, FL",
+    "date": "2018-02-10",
+    "url": "http://www.fladotnet.com/codecamp/SpeakerBio.aspx?SpeakerID=871",
+    "session": {
+      "title": "Giving Clarity to LINQ Queries by Extending Expressions",
+      "url": "giving-clarity-to-linq-queries-by-extending-expressions"
+    }
+  },
+  {
+    "event": "South Florida Code Camp",
+    "location": "Nova University: Davie, FL",
+    "date": "2018-02-10",
+    "url": "http://www.fladotnet.com/codecamp/SpeakerBio.aspx?SpeakerID=871",
     "session": {
       "title": "Angular the .NET Pitch",
       "url": "angular-the-dotnet-pitch"
     }
   },
-    {
+  {
+    "event": "Visual Studio Toolbox",
+    "location": "Channel 9, Seattle",
+    "date": "2017-09-28",
+    "url": "https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Functional-Programming-in-CSharp",
+    "session": {
+      "title": "Angular the .NET Pitch",
+      "url": "angular-the-dotnet-pitch"
+    }
+  },
+  {
     "event": "DevReach",
     "location": "Sofia, Bulgaria",
     "date": "2017-11-13",
@@ -17,36 +67,6 @@
     "session": {
       "title": "Angular the .NET Pitch",
       "url": "angular-the-dotnet-pitch"
-    }
-  },
-    {
-    "event": "Heartland Developers Conference (HDC)",
-    "location": "Omaha, Nebraska",
-    "date": "2017-09-08",
-    "url": "http://careerlink.com/hdc/",
-    "session": {
-      "title": "Into the Next Dimension",
-      "url": "into-the-next-dimension"
-    }
-  },
-  {
-    "event": "DevUp",
-    "location": "St. Louis, MO",
-    "date": "2017-10-16",
-    "url": "http://devupconf.org/",
-    "session": {
-      "title": "Going All In With C#",
-      "url": "going-all-in-with-functional-csharp"
-    }
-  },
-    {
-    "event": "DevSpace",
-    "location": "Huntsville, AL",
-    "date": "2017-10-13",
-    "url": "https://www.devspaceconf.com/",
-    "session": {
-      "title": "Giving Clarity to LINQ Queries by Extending Expressions",
-      "url": "giving-clarity-to-LINQ-by-extending-expressions"
     }
   }
 ]
