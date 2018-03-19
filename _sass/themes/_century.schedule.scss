@@ -1,0 +1,42 @@
+.schedule {
+    
+    list-style-type: none;
+    padding: 0;
+    .schedule-item-box {
+        background-color: $brand-info;        
+     span {
+        display:block;
+        border-radius: 3px;        
+    }
+}
+
+    .schedule-date {
+        padding: 20px 20px 10px;
+        color: white;
+        font-size: $font-size-h3;
+    }
+
+    .schedule-location {
+        padding: 0px 20px 10px;
+        color: white;
+        font-size: $font-size-h5;        
+    }
+    .schedule-description {
+      padding: 20px 20px 10px;
+       height: 100%;        
+    }
+    .schedule-item {
+        margin-bottom: 30px;
+      }
+
+}
+
+.row-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  /* vertical spacing between columns */
+  

@@ -5,8 +5,8 @@
     "date": "2018-05-04",
     "url": "https://www.stirtrek.com",
     "session": {
-      "title": "TBD",
-      "url": "#"
+      "title": "Giving Clarity to LINQ Queries by Extending Expressions",
+      "url": "giving-clarity-to-LINQ-queries-by-extending-expressions"
     }
   },
   {
@@ -15,8 +15,8 @@
     "date": "2018-03-27",
     "url": "https://www.codepalousa.com",
     "session": {
-      "title": "TBD",
-      "url": "#"
+      "title": "Going All in with Functional C#",
+      "url": "going-all-in-with-functional-csharp"
     }
   },
   {
@@ -25,28 +25,8 @@
     "date": "2018-05-29",
     "url": "https://www.progress.com/next",
     "session": {
-      "title": "TBD",
-      "url": "#"
-    }
-  },
-  {
-    "event": "South Florida Code Camp",
-    "location": "Nova University: Davie, FL",
-    "date": "2018-02-10",
-    "url": "http://www.fladotnet.com/codecamp/SpeakerBio.aspx?SpeakerID=871",
-    "session": {
-      "title": "Giving Clarity to LINQ Queries by Extending Expressions",
-      "url": "giving-clarity-to-linq-queries-by-extending-expressions"
-    }
-  },
-  {
-    "event": "South Florida Code Camp",
-    "location": "Nova University: Davie, FL",
-    "date": "2018-02-10",
-    "url": "http://www.fladotnet.com/codecamp/SpeakerBio.aspx?SpeakerID=871",
-    "session": {
-      "title": "Angular the .NET Pitch",
-      "url": "angular-the-dotnet-pitch"
+      "title": "Multiple Sessions",
+      "url": "https://www.progress.com/next"
     }
   },
   {
