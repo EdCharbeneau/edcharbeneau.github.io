@@ -11,10 +11,12 @@
     
     const jsonData = {{site.data.schedule | jsonify}};
 
-    document.querySelector('.past').innerHTML = mapScheduleToTemplate(jsonData,
-         templateLiteral, ev => new Date(ev.date) < new Date());
+    const templateDateFormat = { month: 'short', day: 'numeric' };
+    
+    const mapScheduleWhere = mapScheduleToTemplate(jsonData, templateLiteral(templateDateFormat));
 
-    document.querySelector('.future').innerHTML = mapScheduleToTemplate(jsonData,
-         templateLiteral, ev => new Date(ev.date) > new Date());
+    document.querySelector('.past').innerHTML = mapScheduleWhere(ev => new Date(ev.date) < new Date());
+
+    document.querySelector('.future').innerHTML = mapScheduleWhere(ev => new Date(ev.date) > new Date());
 
 </script>

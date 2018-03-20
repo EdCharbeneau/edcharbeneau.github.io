@@ -1,14 +1,10 @@
+const mapScheduleToTemplate = (schedule, itemTemplate) => filterBy => 
+        schedule.filter(filterBy)
+                .sort((a,b) => new Date(a.date) - new Date(b.date))
+                .map(i => itemTemplate(i)).join('');
 
-function mapScheduleToTemplate(schedule, itemTemplate, filterBy) {
-  return schedule.filter(filterBy)
-    .sort((a, b) => new Date(a.date) - new Date(b.date))
-    .map(i => itemTemplate(i)).join('');
-}
-
-const dateFormat = { month: 'short', day: 'numeric' };
-
-function templateLiteral(sch) {
-  return `<li class='schedule-item'>
+const templateLiteral = dateFormat => sch =>
+       `<li class='schedule-item'>
               <div class='row row-flex'>
               <div class='col-md-4'>
                   <div class='schedule-item-box'>
@@ -24,4 +20,3 @@ function templateLiteral(sch) {
                 </div>
               </div>
             </li>`;
-}
