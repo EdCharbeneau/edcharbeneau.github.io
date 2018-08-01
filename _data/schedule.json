@@ -1,8 +1,48 @@
 [
   {
+    "event": "DevUp",
+    "location": "St. Louis, MO",
+    "date": "2018-10-08",
+    "url": "https://devupconf.org/",
+    "session": {
+      "title": "Goodbye JavaScript, Hello Blazor",
+      "url": "goodbye-javascript-hello-blazor"
+    }
+  },
+  {
+    "event": "Visual Studio Toolbox",
+    "location": "Channel 9, Seattle",
+    "date": "2018-08-15",
+    "url": "https://channel9.msdn.com/Shows/Visual-Studio-Toolbox",
+    "session": {
+      "title": "Blazor, Expressions, Telerik",
+      "url": "visual-studio-toolbox"
+    }
+  },
+  {
+    "event": "DevReach",
+    "location": "Sofia, Bulgaria",
+    "date": "2018-11-13",
+    "url": "http://devreach.com/",
+    "session": {
+      "title": "Giving Clarity to LINQ Queries by Extending Expressions",
+      "url": "giving-clarity-to-LINQ-queries-by-extending-expressions"
+    }
+  },
+  {
     "event": "Stirtrek",
     "location": "Columbus, OH",
     "date": "2018-05-04",
+    "url": "https://www.stirtrek.com",
+    "session": {
+      "title": "Giving Clarity to LINQ Queries by Extending Expressions",
+      "url": "giving-clarity-to-LINQ-queries-by-extending-expressions"
+    }
+  },
+  {
+    "event": "Beer City Code",
+    "location": "Columbus, OH",
+    "date": "2018-07-23",
     "url": "https://www.stirtrek.com",
     "session": {
       "title": "Giving Clarity to LINQ Queries by Extending Expressions",
@@ -17,16 +57,6 @@
     "session": {
       "title": "Going All in with Functional C#",
       "url": "going-all-in-with-functional-csharp"
-    }
-  },
-  {
-    "event": "ProgressNext",
-    "location": "The Westin Boston Waterfront: Boston, MA",
-    "date": "2018-05-29",
-    "url": "https://www.progress.com/next",
-    "session": {
-      "title": "Multiple Sessions",
-      "url": ""
     }
   },
   {
