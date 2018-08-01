@@ -1,8 +1,8 @@
 ---
 layout: post
-permalink: /blazedown-with-blazor/
-title: BlazeDown with Blazor
-path: 2018-04-20-blazedown-with-blazor.md
+permalink: /blazedown-with-blazor-02/
+title: BlazeDown with Blazor 0.2
+path: 2018-04-20-blazedown-with-blazor2.md
 ---
 
 ![](/img/posts/blaze-down-1170x285.jpg)
@@ -15,7 +15,7 @@ This is a proof of concept using [Blazor](https://blogs.msdn.microsoft.com/webde
 
 This experiment is in no way intended to be a product, or example of best practices. It's here because it *it's possible* and that's all.
 
-## Client Side C#
+## Client Side C# ##
 
 BlazeDown was built using Blazor, a client side **experimental framework** for building native web applications using .NET and C#. That's right, this app was created with .NET and is running natively in the browser using [WebAssembly](https://blogs.msdn.microsoft.com/webdev/2018/02/06/blazor-experimental-project/).
 
