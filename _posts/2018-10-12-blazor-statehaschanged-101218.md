@@ -13,7 +13,7 @@ A review of the ASP.NET Community Standup, what happened at DevUp, highlights of
 
 On this weeks ASP.NET Community Standup, the topic is Blazor! Steve Sanderson demo's the new Provider component and a method of sharing data between components that is so easy it makes Daniel Roth's head explode.
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/wwi55L6Qb18?list=PL1rZQsJPBU2StolNg0aqvQswETPcYnNKL" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="620" src="https://www.youtube.com/embed/wwi55L6Qb18?list=PL1rZQsJPBU2StolNg0aqvQswETPcYnNKL" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## [Blazor Dual Mode](https://github.com/Suchiman/BlazorDualMode)
 
