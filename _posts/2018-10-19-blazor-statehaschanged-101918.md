@@ -26,13 +26,13 @@ Daniel Roth is requesting feedback on Blazor support for Visual Studio Code. Mak
 
 On the show I broke down some Q/A from my article "A breakdown of Blazor project types". 
 
-1. How do I structure project so I can easily move to full-stack approach with WebAssembly later?.
+1 - How do I structure project so I can easily move to full-stack approach with WebAssembly later?.
 
 > I would use an n-tier application approach that takes the best of the Full-Stack and Razor Components project types. Using dependency injection you could swap out a service for the given project type that either talks to the database directly (Server Side) or via REST (Web Assembly). If structured properly you could even have other .NET clients such as Xamarin.
 
 ![](https://i.imgur.com/RtlrpCE.jpg)
 
-2. I would use server-side approach for intranet solution (data entry, listing some reports) which is used by 600 clients daily. Would you say this is too much for server-side approach or should it handle without problem?
+2 - I would use server-side approach for intranet solution (data entry, listing some reports) which is used by 600 clients daily. Would you say this is too much for server-side approach or should it handle without problem?
 
 > Depending on your infrastructure this should work fine. If your internal servers aren't that robust, you can always offload work using [Azure SignalR as a Service](https://azure.microsoft.com/en-us/services/signalr-service/). 
 
