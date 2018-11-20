@@ -15,12 +15,6 @@ The hot new feature of this release is the Cascading Parameter. Cascading Parame
 
 The project for this show can be found on GitHub. https://github.com/EdCharbeneau/StateHasChangedBlazor070
 
-```
-dotnet user-secrets set "AzureVision" "<YOUR API KEY FROM AZURE COGNITIVE SERVICES>"
-```
-
-To sign up for subscription keys, see [Subscriptions](https://azure.microsoft.com/try/cognitive-services/). 
-
 ## [Blazor Q&A with Microsoft's Daniel Roth](https://www.telerik.com/blogs/blazor-qa-with-microsofts-daniel-roth)
 
 Telerik conducted an interview with Daniel Roth, program manager on the Blazor project. Daniel answered questions about how Blazor got started, what the community is like and much more. See the full interview at [Telerik.com/blogs](https://www.telerik.com/blogs/blazor-qa-with-microsofts-daniel-roth)
