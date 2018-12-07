@@ -27,11 +27,12 @@ See it in action at [BlazorFiddle.com][fiddle]
 
 On this episode I attempted to abstract the CSS styles into a custom namespace and .css file so the TabSet component is more portable. Through the process the CSS for the TabSet ended up breaking. Even though the demo didn't quite work out, I was able to demonstrate how to compile Sass into CSS without the need for NodeJS or Ruby (pure .NET tooling). Also, we took a deep dive into Bootstrap's source code and saw how to customize a build of Boostrap for our own use.
 
-When the issue is fixed, the source code will be found on Github: https://github.com/EdCharbeneau/StateHasChangedBlazor070
+**Issues from the stream are fixed** and the source code can be found on Github: https://github.com/EdCharbeneau/StateHasChangedBlazor070
 
 #### [Blazor Gitter](https://gitter.im/aspnet/Blazor#utm_source=notification&utm_medium=email&utm_campaign=unread-notifications) 
 
 Chat with other devs about the Blazor project.
+
 
 [auth]: http://lightswitchhelpwebsite.com/Blog/tabid/61/EntryId/4316/A-Demonstration-of-Simple-Server-side-Blazor-Cookie-Authentication.aspx
 [paint]: https://github.com/Lupusa87/BlazorPaint
