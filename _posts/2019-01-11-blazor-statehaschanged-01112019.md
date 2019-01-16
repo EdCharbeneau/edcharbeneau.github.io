@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /blazor-fluent-validation/
+permalink: /blazor-from-scratch/
 title: Blazor From Scratch
 path: 2019-11-04-blazor-statehaschanged-01112019.md
 ---
