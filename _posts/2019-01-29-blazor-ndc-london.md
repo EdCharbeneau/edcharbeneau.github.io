@@ -2,7 +2,7 @@
 layout: post
 permalink: /blazor-ndc-london/
 title: Blazor Notes from NDC London
-path: 2019-29-01-blazor-ndc-london.md
+path: 2019-01-29-blazor-ndc-london.md
 ---
 
 ## Blazor Notes from NDC London
