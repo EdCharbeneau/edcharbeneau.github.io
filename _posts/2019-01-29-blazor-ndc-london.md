@@ -27,7 +27,9 @@ The only real downside to the workshop material is it would be hard to compress 
 
 There were a few discussions around what could be in the future for Blazor and Razor Components. I took some mental notes, but please keep in mind these were discussions that were not billed as "coming soon" but rather "wouldn't it be cool if...".
 
-Also pure `.wasm` compilation is still within the real of possible. A very early proof of concept style example was used to show the capability, which you can find on Steve's personal GitHub page https://github.com/SteveSandersonMS/il2wasm.
+Pure `.wasm` compilation is still within the real of possible. A very early proof of concept style example was used to show the capability, which you can find on Steve's personal GitHub page https://github.com/SteveSandersonMS/il2wasm.
+
+Also, Razor Components will work across MVC and Razor pages projects. This actually made it into the latest preview, but components can only render and are not interactive.
 
 ### Blazor Roadmap
 
