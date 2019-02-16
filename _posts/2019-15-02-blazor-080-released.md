@@ -9,6 +9,8 @@ path: 2019-15-02-blazor-080-released.md
 
 On this episode of Blazor StateHasChanged we recaped the NDC London workshop, Blazing Pizza. We discussed the Blazor 0.8.0 release details along with the ASP.NET Core 3.0 preview 2 bits. Telerik is also keeping up to date with the releases with Telerik UI for Blazor 0.2.0. The 2.0 release targets compatibility with VS2019 and Blazor 0.8.0.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iNbVwZM4wos" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Telerik Grid-Edit-Form
 
 This week we saw a demo of the Telerik UI for Blazor grid. The demo utilizes column templates to easily create an edit form experience. The combination of the Telerik grid and Razor Components model made this quite an easy task. The example shown on the show can be found on GitHub with many other Telerik UI for Blazor demos: https://github.com/telerik/ui-for-blazor-examples/
