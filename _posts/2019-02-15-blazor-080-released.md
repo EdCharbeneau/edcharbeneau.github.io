@@ -2,7 +2,7 @@
 layout: post
 permalink: /blazor-preview-2-recao/
 title: Blazor 0.8.0 and ASP.NET Core 3.0 preview 2 recap
-path: 2019-15-02-blazor-080-released.md
+path: 2019-02-15-blazor-080-released.md
 ---
 
 ## Blazor StateHasChanged() Jan. 24, 2019
