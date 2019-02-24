@@ -9,6 +9,12 @@ This week on Blazor StateHasChanged we learned about Authentication and Authoriz
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cY-ffDR0yTU?start=1506" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Auth Deep Dive
+
+If you're looking for a deep dive explanation of how Authentication and Authorization work in ASP.NET, then I suggest looking at the article I wrote for Red Gate. The article is a little dated as it refers to MVC5 and OWIN, but fundamentally it should be accurate to what we're doing today. The article walks through the process of creating a custom Auth pipeline for MVC. Throughout the process you'll learn everything you need to know about how Auth middleware works in .NET.
+
+https://www.red-gate.com/simple-talk/dotnet/net-framework/creating-custom-oauth-middleware-for-mvc-5/
+
 ## Blazing Pizza 0.8.0
 
 *As of Feb 24th, 2019.*
