@@ -2,7 +2,7 @@
 layout: post
 permalink: /blazor-authentication-authorization/
 title: Blazor Authentication and Authorization
-path: 2018-09-28-blazor-authentication-authorization.md
+path: 2019-02-15-blazor-authentication-authorization.md
 ---
 
 This week on Blazor StateHasChanged we learned about Authentication and Authorization with Blazor. We looked at how to implement Twitter Auth with Blazor using the BlazingPizza workshop as a demo. We also discussed the difference between (Authentication and Authorization) vs. Identity.
@@ -41,8 +41,6 @@ https://cloudblogs.microsoft.com/quantum/2019/02/07/test-your-quantum-programmin
 While at NDC in London, Carl and Richard chatted with Steve Sanderson and Daniel Roth about the latest efforts around running C# in the browser with Web Assembly. Since its first demo back in 2017 by Steve, Blazor has grown up a lot - part of ASP.NET Core but still nominally an experimental project, parts of Blazor are now appearing in the preview editions of .NET Core 3 as Razor Components. 2019 looks to be a big year for Blazor!
 
 https://www.dotnetrocks.com/?show=1622
-
-## 
 
 #### Blazor Community Chat
 
