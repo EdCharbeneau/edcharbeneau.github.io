@@ -39,4 +39,24 @@
             }
         }
     }
+
+    &.btn-danger {
+        border-color: $brand-danger;
+        color: $brand-danger;
+        &:hover {
+            background-color: $brand-danger;
+            color: $gray-lightest;
+        }
+
+        &--inverted {
+            background-color: $brand-danger;
+            color: $gray-lightest;
+            border-color: $brand-danger;
+
+            &:hover {
+                background-color: $gray-lightest;
+                color: $brand-danger;
+            }
+        }
+    }
 }
