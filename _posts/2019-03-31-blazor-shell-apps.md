@@ -28,6 +28,12 @@ Read the full post about the implementation on Chris Sainty's blog:
 
 https://chrissainty.com/using-fluentvalidation-for-forms-validation-in-razor-components/
 
+## VS2019 Code Party
+
+Don't miss out on the party. There's a day full of live content streaming from Channel 9 surrounding the release of Visual Studio 2019. I'll be there in person during the after party. You can join us on Twitch at Twitch.tv/codeparty
+
+![](https://raw.githubusercontent.com/Microsoft/VisualStudio2019Launch/master/Creative/VS_EmailHeader_1000x200.jpg)
+
 #### Blazor Community Chat
 
 [Chat with other devs about the Blazor project.](https://gitter.im/aspnet/Blazor#utm_source=notification&utm_medium=email&utm_campaign=unread-notifications) 
