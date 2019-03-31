@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /blazor-statehaschanged-113018/
+permalink: /blazor-statehaschanged-120718/
 title: Blazor StateHasChanged() Dec. 7, 2018
 path: 2018-12-07-blazor-statehaschanged-120718.md
 ---
