@@ -14,7 +14,7 @@ const templateLiteral = dateFormat => sch =>
                 </div>
                 <div class='col-md-8'>
                   <div class='schedule-description'>
-                    <h3><a href='sessions/${sch.session.url}'>${sch.session.title}</a></h3>
+                    <h3><a href='${sch.url}'>${sch.session.title}</a></h3>
                     <p>${sch.event}</p>
                   </div>
                 </div>

@@ -1,82 +1,92 @@
 [
   {
-    "event": "DevUp",
-    "location": "St. Louis, MO",
-    "date": "2018-10-08",
-    "url": "https://devupconf.org/",
-    "session": {
-      "title": "Goodbye JavaScript, Hello Blazor",
-      "url": "goodbye-javascript-hello-blazor"
-    }
-  },
-  {
-    "event": "Visual Studio Toolbox",
-    "location": "Channel 9, Seattle",
-    "date": "2018-08-15",
-    "url": "https://channel9.msdn.com/Shows/Visual-Studio-Toolbox",
-    "session": {
-      "title": "Blazor, Expressions, Telerik",
-      "url": "visual-studio-toolbox"
-    }
-  },
-  {
-    "event": "DevReach",
-    "location": "Sofia, Bulgaria",
-    "date": "2018-11-13",
-    "url": "http://devreach.com/",
-    "session": {
-      "title": "Going all in with Functional C#",
-      "url": "going-all-in-with-functional-csharp"
-    }
-  },
-  {
     "event": "Stirtrek",
     "location": "Columbus, OH",
-    "date": "2018-05-04",
-    "url": "https://www.stirtrek.com",
+    "date": "2019-04-26",
+    "url": "https://stirtrek.com/Speakers/2019/Ed-Charbeneau.html#abstract",
     "session": {
-      "title": "Giving Clarity to LINQ Queries by Extending Expressions",
-      "url": "giving-clarity-to-LINQ-queries-by-extending-expressions"
+      "title": "Goodbye JavaScript, Hello Blazor",
+      "url": "https://stirtrek.com/Speakers/2019/Ed-Charbeneau.html#abstract"
     }
   },
   {
     "event": "Beer City Code",
-    "location": "Columbus, OH",
-    "date": "2018-07-23",
-    "url": "https://www.stirtrek.com",
+    "location": "Grand Rapids, MI",
+    "date": "2019-06-01",
+    "url": "https://beercitycode.com/",
     "session": {
-      "title": "Giving Clarity to LINQ Queries by Extending Expressions",
-      "url": "giving-clarity-to-LINQ-queries-by-extending-expressions"
+      "title": "Workshop: Build your first full-stack Blazor app",
+      "url": "https://beercitycode.com/"
+    }
+  },
+  {
+    "event": "Razor: Into the Razor-Verse",
+    "location": "Grand Rapids, MI",
+    "date": "2019-05-31",
+    "url": "https://beercitycode.com/",
+    "session": {
+      "title": "Workshop: Build your first full-stack Blazor app",
+      "url": "https://beercitycode.com/"
     }
   },
   {
     "event": "Code PaLOUsa",
     "location": "Louisville, KY",
-    "date": "2018-03-27",
-    "url": "https://www.codepalousa.com",
+    "date": "2019-08-23",
+    "url": "https://CodePaLOUsa.com/",
     "session": {
-      "title": "Going All in with Functional C#",
-      "url": "going-all-in-with-functional-csharp"
+      "title": "TBD",
+      "url": "/"
     }
   },
   {
-    "event": "Visual Studio Toolbox",
-    "location": "Channel 9, Seattle",
-    "date": "2017-09-28",
-    "url": "https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Functional-Programming-in-CSharp",
+    "event": "Music City Code",
+    "location": "Nashville, TN",
+    "date": "2019-09-05",
+    "url": "https://MusicCityCode.com/",
     "session": {
-      "title": "Angular the .NET Pitch",
-      "url": "angular-the-dotnet-pitch"
+      "title": "TBD",
+      "url": "/"
+    }
+  },
+  {
+    "event": "Live! 360",
+    "location": "Orlando, FL",
+    "date": "2019-11-17",
+    "url": "https://live360events.com/events/orlando-2018/home.aspx",
+    "session": {
+      "title": "TBD",
+      "url": "/"
+    }
+  },
+  {
+    "event": "Microsoft Build",
+    "location": "Seattle, WA",
+    "date": "2019-05-06",
+    "url": "http://Build.microsoft.com",
+    "session": {
+      "title": "Sponsor/Booth",
+      "url": "/"
+    }
+  },
+  {
+    "event": "Codestock",
+    "location": "Knoxville, TN",
+    "date": "2019-04-12",
+    "url": "http://codestock.org",
+    "session": {
+      "title": "Sponsor/Booth",
+      "url": "/"
     }
   },
   {
     "event": "DevReach",
     "location": "Sofia, Bulgaria",
-    "date": "2017-11-13",
-    "url": "http://devreach.com/",
+    "date": "2019-10-23",
+    "url": "http://devreach.com",
     "session": {
-      "title": "Angular the .NET Pitch",
-      "url": "angular-the-dotnet-pitch"
+      "title": "TBD",
+      "url": "/"
     }
   }
 ]
