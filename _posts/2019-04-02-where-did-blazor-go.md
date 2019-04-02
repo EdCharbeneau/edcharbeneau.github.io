@@ -7,7 +7,7 @@ path: 2019-04-02-where-did-blazor-go.md
 
 ## VS2019 Release Day
 
-So you've just switched from Visual Studio 2019-preview to the stable release and now you're missing Razor Components and Blazor templates. This is a common issue and you're not alone, so let's get you back up and running with a few simple steps.
+So you've just switched from Visual Studio 2019-preview to the stable release and now you're missing Razor Components and Blazor templates. This is a common issue and you're not alone, so let's get you back up and running with a few simple steps. Additionally, the best advice is likely to just [STAY ON PREVIEW](http://localhost:4000/vs2019-where-did-blazor-go/#stay-on-visual-studio-preview).
 
 ## Re-install .NET Core 3.0 Preview
 
@@ -30,6 +30,8 @@ Options > Projects and Solutions > [x] Use previews of the .NET Core SDK
 ## Stay On Visual Studio Preview
 
 If you don't want to have to worry about these things, you can opt to continue with the Visual Studio 2019 Preview. Both Preview and Stable can run on side-by-side on the same machine. Any improvements to Blazor tooling and .NET Core should be easily accessible from the VS-Preview channel. The choice is yours whether to go with the main stream (tweaks enabled) or previews, both should work.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Using <a href="https://twitter.com/hashtag/Blazor?src=hash&amp;ref_src=twsrc%5Etfw">#Blazor</a>? Stick to the Visual Studio 2019 *Preview* channel.</p>&mdash; Daniel Roth (@danroth27) <a href="https://twitter.com/danroth27/status/1113211173137027073?ref_src=twsrc%5Etfw">April 2, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Blazor Client Side Templates
 
