@@ -31,7 +31,13 @@ Options > Projects and Solutions > [x] Use previews of the .NET Core SDK
 
 If you don't want to have to worry about these things, you can opt to continue with the Visual Studio 2019 Preview. Both Preview and Stable can run on side-by-side on the same machine. Any improvements to Blazor tooling and .NET Core should be easily accessible from the VS-Preview channel. The choice is yours whether to go with the main stream (tweaks enabled) or previews, both should work.
 
-## Need More Blazor?
+## Blazor Client Side Templates
+
+If you were already using the Blazor Client-side templates, then you should be good-to-go. However, if you're new to Blazor you man need to install the additional templates found on the Visual Studio Marketplace.
+
+https://marketplace.visualstudio.com/items?itemName=aspnet.blazor
+
+### Need More Blazor?
 
 If you're looking to learn more about Blazor please check out the videos I produce each week at [BlazorVideos.com](http://BlazorVideos.com) (YouTube).
 
