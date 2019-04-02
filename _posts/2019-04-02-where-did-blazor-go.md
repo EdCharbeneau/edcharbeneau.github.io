@@ -13,7 +13,7 @@ So you've just switched from Visual Studio 2019-preview to the stable release an
 
 If you've already installed the .NET Core 3.0 preview bits, may need to install them again. I was a little confused at first because I assumed that VS2019 automatically pick up what .NET versions were installed on the system, however this isn't the case.
 
-![](/img/posts/SDK-dropdown.jpg)
+![](/img/posts/SDK-dropdown.jpg?v2)
 
 If you're missing .NET Core 3.0 from this list, it's time to do a repair install from the link below:
 
@@ -25,7 +25,7 @@ If you're a Blazor Fan like me, you're used to living on the bleeding edge by no
 
 Options > Projects and Solutions > [x] Use previews of the .NET Core SDK
 
-![](/img/posts/preview-bits.jpg)
+![](/img/posts/preview-bits.jpg?v2)
 
 ## Stay On Visual Studio Preview
 
