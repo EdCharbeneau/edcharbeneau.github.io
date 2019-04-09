@@ -11,7 +11,7 @@
     
     const jsonData = {{site.data.schedule | jsonify}};
 
-    const templateDateFormat = { month: 'short', day: 'numeric' };
+    const templateDateFormat = { timeZone: 'UTC', month: 'short', day: 'numeric' };
     
     const mapScheduleWhere = mapScheduleToTemplate(jsonData, templateLiteral(templateDateFormat));
 
