@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /blazor-state-management-basics/
-title: Hacking SEO in Client-side Blazor
+title: Blazor State Managementn Basics
 path: 2019-05-10-state-management-basics.md
 ---
 
