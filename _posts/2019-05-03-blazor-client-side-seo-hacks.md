@@ -2,7 +2,7 @@
 layout: post
 permalink: /blazor-client-side-seo-hacks/
 title: Hacking SEO in Client-side Blazor
-path: 2019-03-05-blazor-client-side-seo-hacks.md
+path: 2019-05-03-blazor-client-side-seo-hacks.md
 ---
 
 On this episode we walk through installing the Blazor Preview 4 release. We also take a look at how we might be able to handle Title and Meta tags with client-side Blazor. The demo is a bit of an experiment, but there's a lot to be learned about how Blazor works internally while trying to extend the head element of the document.
