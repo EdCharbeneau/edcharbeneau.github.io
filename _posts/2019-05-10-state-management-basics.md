@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /blazor-state-management-basics/
-title: Blazor State Managementn Basics
+title: Blazor State Management Basics
 path: 2019-05-10-state-management-basics.md
 ---
 
