@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /blazor-workshop-codepalousa
-title: Blazor Workshop Beer City Code Edition
+title: Blazor Workshop Code PaLOUsa Edition
 path: 2019-08-16-blazor-workshop-codepalousa.md
 ---
 
