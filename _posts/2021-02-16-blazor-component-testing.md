@@ -28,7 +28,7 @@ bUnit</strong>&nbsp;is a testing library for Blazor Components. Its goal is to m
 
 ```bash
 dotnet new --install bunit.template
-dotnet new bunit -o &lt;NAME OF TEST PROJECT&gt;
+dotnet new bunit -o <NAME OF TEST PROJECT>
 ```
 
 <p>With the bUnit project created we&rsquo;ll add our project or component library as a reference. </p>
@@ -48,15 +48,15 @@ using TestableBlazor.Client;
 public void AlertInit()
 {
     // Render an Alert component
-    var cut = RenderComponent&lt;Alert&gt;();
+    var cut = RenderComponent<Alert>();
 
     // Expected HTML rendered
     string expectedMarkup = @"
-    &lt;div class=""alert alert-danger""&gt;
-        &lt;button type=""button"" class=""close"" aria-label=""Close""&gt;
-            &lt;span aria-hidden=""true""&gt;&amp;times;&lt;/span&gt;
-        &lt;/button&gt;
-    &lt;/div&gt;";
+    <div class=""alert alert-danger"">
+        <button type=""button"" class=""close"" aria-label=""Close"">
+            <span aria-hidden=""true"">&times;</span>
+        </button>
+    </div>";
 
     // Did it match?
     cut.MarkupMatches(expectedMarkup);
@@ -72,8 +72,8 @@ public void AlertInit()
 public void AlertColor()
 {
     // Render the component with IsInfo = true
-    var cut = RenderComponent&lt;Alert&gt;(parameters =&gt; 
-                parameters.Add(p =&gt; p.IsInfo, true));
+    var cut = RenderComponent<Alert>(parameters => 
+                parameters.Add(p => p.IsInfo, true));
 
     // The expected CSS value
     var expectedCss = "alert alert-info";
