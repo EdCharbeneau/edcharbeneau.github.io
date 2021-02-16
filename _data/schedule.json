@@ -1,82 +1,12 @@
 [
   {
-    "event": "Stirtrek",
-    "location": "Columbus, OH",
-    "date": "2019-04-26",
-    "url": "https://stirtrek.com/Speakers/2019/Ed-Charbeneau.html#abstract",
+    "event": "Basta",
+    "location": "Virtual",
+    "date": "2021-02-17",
+    "url": "http://basta.net/en/",
     "session": {
-      "title": "Goodbye JavaScript, Hello Blazor",
-      "url": "https://stirtrek.com/Speakers/2019/Ed-Charbeneau.html#abstract"
-    }
-  },
-  {
-    "event": "Beer City Code",
-    "location": "Grand Rapids, MI",
-    "date": "2019-06-01",
-    "url": "https://beercitycode.com/",
-    "session": {
-      "title": "Razor: Into the Razor-verse",
-      "url": "https://beercitycode.com/"
-    }
-  },
-  {
-    "event": "Razor: Into the Razor-Verse",
-    "location": "Grand Rapids, MI",
-    "date": "2019-05-31",
-    "url": "https://beercitycode.com/",
-    "session": {
-      "title": "Workshop: Build your first full-stack Blazor app",
-      "url": "https://beercitycode.com/"
-    }
-  },
-  {
-    "event": "Code PaLOUsa",
-    "location": "Louisville, KY",
-    "date": "2019-08-23",
-    "url": "https://CodePaLOUsa.com/",
-    "session": {
-      "title": "TBD",
-      "url": "/"
-    }
-  },
-  {
-    "event": "Music City Code",
-    "location": "Nashville, TN",
-    "date": "2019-09-05",
-    "url": "https://MusicCityCode.com/",
-    "session": {
-      "title": "TBD",
-      "url": "/"
-    }
-  },
-  {
-    "event": "Live! 360",
-    "location": "Orlando, FL",
-    "date": "2019-11-17",
-    "url": "https://live360events.com/events/orlando-2018/home.aspx",
-    "session": {
-      "title": "TBD",
-      "url": "/"
-    }
-  },
-  {
-    "event": "Microsoft Build",
-    "location": "Seattle, WA",
-    "date": "2019-05-06",
-    "url": "http://Build.microsoft.com",
-    "session": {
-      "title": "Sponsor/Booth",
-      "url": "/"
-    }
-  },
-  {
-    "event": "Codestock",
-    "location": "Knoxville, TN",
-    "date": "2019-04-12",
-    "url": "http://codestock.org",
-    "session": {
-      "title": "Sponsor/Booth",
-      "url": "/"
+      "title": "Blazor Stability Testing Tools for Bullet Proof Applications",
+      "url": "https://basta.net/net-framework-c/blazor-stability-testing-tools-for-bullet-proof-applications/"
     }
   },
   {
