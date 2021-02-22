@@ -84,7 +84,7 @@ This example of course is just the tip of an iceberg and not everything is a cle
 
 Much like the CSS Grid we can draw a similar comparison for XAML's StackPanel another beloved .NET layout tool of many longtime .NET developers. In a modern web application the CSS Flexbox has a striking resemblance to the StackPanel layout.
 
-Below is a snippet of XAML's Grid Layout
+Below is a snippet of XAML's StackPanel Layout
 
 ```xml
 <StackPanel Grid.Column="1" Margin="40,0,0,0" VerticalAlignment="Center">
@@ -155,7 +155,7 @@ Just as XAML allows .NET developers to mix Grid Layouts and StackPanels, so do t
 
 In these examples we'll also use some grid positioning properties `grid-column` and `grid-row` to identify some differences between XAML and CSS. When using HTML/CSS elements generally render to the browser (grid, felxbox, etc.) in their **source order**, or the order in which they are expressed in markup. The opposite holds true for the XAML Grid which interprets no `Grid.Row` or `Grid.Column` property defined to `Grid.Row="0" or Grid.Column="0"`. In CSS Grid each HTML element will render after the next unless coordinates are specified.
 
-Below is a snippet of XAML's Grid Layout
+Below is a snippet of XAML Grid and StackPanel Layouts
 
 ```xml
 <Grid>
