@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /2021-02-22-blazor-layout-components/
+permalink: /blazor-layout-components/
 title: Blazor Layout Components
 path: 2021-02-22-blazor-layout-components.md
 date: 2021-02-22
