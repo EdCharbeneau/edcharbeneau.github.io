@@ -67,7 +67,7 @@ Below is the HTML which the CSS is applied to
 
 You can see a live example of this in the codepen provided below.
 
-<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="result" data-user="EdCharbeneau" data-slug-hash="vYyeQJQ" data-preview="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYyeQJQ">
+<p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result" data-user="EdCharbeneau" data-slug-hash="vYyeQJQ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="vYyeQJQ">
   <span>See the Pen <a href="https://codepen.io/EdCharbeneau/pen/vYyeQJQ">
   vYyeQJQ</a> by EdCharbeneau (<a href="https://codepen.io/EdCharbeneau">@EdCharbeneau</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
