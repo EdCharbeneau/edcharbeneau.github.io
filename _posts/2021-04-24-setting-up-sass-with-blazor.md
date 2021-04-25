@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /2021--04--24-setting-up-sass-with-blazor/
+permalink: /2021-04-24-setting-up-sass-with-blazor/
 title: Setting Up Sass with Blazor
 path: 2021-04-24-setting-up-sass-with-blazor.md
 date: 2021-04-24
