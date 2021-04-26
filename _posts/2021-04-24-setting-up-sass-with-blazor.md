@@ -9,7 +9,7 @@ tags: blazor, scss
 
 I've been using Sass (.scss) for web design for quite a few years now. I learned Sass from some of the best, working primarily with contributors who built the Foundation framework over at Zurb. While Foundation and Bootstrap have slowly declined in popularity, Sass holds strong and still offers features that exceed the basics of CSS. During my experience with Sass I've seen the framework evolve from a Ruby based tool, to libsass. With that transition the installation process has gotten shorter and simpler as well.
 
-In this article I'll show you how to get Sass working in your Blazor project in _ short steps. It won't require gulp, grunt, webpack or any additional tools, just a simple package.json file and npm script as all you need.
+In this article I'll show you how to get Sass working in your Blazor project in 3 short steps. It won't require gulp, grunt, webpack or any additional tools, just a simple package.json file and npm script as all you need.
 
 ## Setting Up Your Blazor Project for Sass
 
