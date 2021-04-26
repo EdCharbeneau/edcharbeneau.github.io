@@ -1,0 +1,11 @@
+Model Information:
+* title:	Voxel Chicken
+* source:	https://sketchfab.com/3d-models/voxel-chicken-fc3d77b853a54f5c8c397e6623f3cabe
+* author:	dbr3d (https://sketchfab.com/dbr3d)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Voxel Chicken" (https://sketchfab.com/3d-models/voxel-chicken-fc3d77b853a54f5c8c397e6623f3cabe) by dbr3d (https://sketchfab.com/dbr3d) licensed under SKETCHFAB Standard (https://sketchfab.com/licenses)
