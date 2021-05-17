@@ -89,7 +89,7 @@ npm run sass:watch
 
 ## Bonus: MSBuild
 
-You can further integrate the process by adding a config to your .csproj file which will initiate the npm script before MSBuild compiles the application. 
+You can further integrate the process by adding a config to your .csproj file which will initiate the npm script before MSBuild compiles the application. Note: This does not work with **watch** scenarios.
 
 ```
   <Target Name="BuildCssDev" Condition="'$(Configuration)' == 'Debug'" BeforeTargets="Build">
