@@ -87,6 +87,21 @@ If you want to watch instead, simply append the `watch` suffix to your command.
 npm run sass:watch
 ```
 
+## Bonus: MSBuild
+
+You can further integrate the process by adding a config to your .csproj file which will initiate the npm script before MSBuild compiles the application. 
+
+```
+  <Target Name="BuildCssDev" Condition="'$(Configuration)' == 'Debug'" BeforeTargets="Build">
+    <Exec Command="npm run your-script-here" />
+  </Target>
+  <Target Name="BuildCssProd" Condition="'$(Configuration)' == 'Release'" BeforeTargets="Build">
+    <Exec Command="npm run your-script-here" />
+  </Target>
+```
+
+This tip comes from [Erwin Kuhn](https://github.com/erwinkn).
+
 ## That's All
 
 This is really all it takes. It's only a few simple steps with no additional tooling required (Gulp, Grunt, Webpack). You're ready to write and compile Sass in your Blazor app now.
