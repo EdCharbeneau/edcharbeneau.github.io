@@ -1,22 +1,62 @@
 [
   {
-    "event": "Basta",
-    "location": "Virtual",
-    "date": "2021-02-17",
-    "url": "http://basta.net/en/",
+    "event": "Stirtrek",
+    "location": "Columbus, OH",
+    "date": "2022-05-6",
+    "url": "https://stirtrek.com/",
     "session": {
-      "title": "Blazor Stability Testing Tools for Bullet Proof Applications",
-      "url": "https://basta.net/net-framework-c/blazor-stability-testing-tools-for-bullet-proof-applications/"
+      "title": "The Future of Cross Platform Blazor",
+      "url": "https://stirtrek.com/speakers/2022/Ed-Charbeneau.html#abstract"
     }
   },
   {
     "event": "DevReach",
-    "location": "Sofia, Bulgaria",
-    "date": "2019-10-23",
+    "location": "Boston, MA",
+    "date": "2022-09-11",
     "url": "http://devreach.com",
     "session": {
-      "title": "TBD",
-      "url": "/"
+      "title": "Multiple tracks",
+      "url": "http://devreach.com"
+    }
+  },
+  {
+    "event": "DevUp",
+    "location": "St. Louis, MO",
+    "date": "2022-06-8",
+    "url": "https://www.devupconf.org/",
+    "session": {
+      "title": "CSS Techniques for Blazor Developers",
+      "url": "https://www.devupconf.org/speakers/ed-charbeneau"
+    }
+  },
+  {
+    "event": "DevUp",
+    "location": "St. Louis, MO",
+    "date": "2022-06-8",
+    "url": "https://www.devupconf.org/",
+    "session": {
+      "title": "Writing JavaScript for C#'s Blazor",
+      "url": "https://www.devupconf.org/speakers/ed-charbeneau"
+    }
+  },
+  {
+    "event": "DevUp",
+    "location": "St. Louis, MO",
+    "date": "2022-06-8",
+    "url": "https://www.devupconf.org/",
+    "session": {
+      "title": "Responsive and Adaptive Tactics for Blazor Applications",
+      "url": "https://www.devupconf.org/speakers/ed-charbeneau"
+    }
+  },
+  {
+    "event": "Code PaLOUsa",
+    "location": "Louisville, KY",
+    "date": "2022-08-19",
+    "url": "https://www.codepalousa.com/",
+    "session": {
+      "title": "In Evaluation",
+      "url": "https://www.codepalousa.com/"
     }
   }
 ]
