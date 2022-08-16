@@ -22,11 +22,11 @@ Our local favorites for you to enjoy. Welcome to Shelbyville, Kentucky.
 **Local Bourbon Flight**
 
 1. Jeptha Creed Bottled-in-Bond  
-    Made in Shelbyville Kentucky using Bloody Butcher Corn with a bonded process.
-2. Woodford Reserve Double Oaked
-    Made in Frankfort Kentucky using two separate, charred oak barrels – the second barrel deeply toasted before a light charring.
-3. Rabbit Hole Heigold
-    Made in Louisville Kentucky using a high-rye double malt mash and toasted charred barrels.
+    - Made in Shelbyville Kentucky using Bloody Butcher Corn with a bonded process.
+2. Woodford Reserve Double Oaked  
+    - Made in Frankfort Kentucky using two separate, charred oak barrels – the second barrel deeply toasted before a light charring.
+3. Rabbit Hole Heigold  
+    - Made in Louisville Kentucky using a high-rye double malt mash and toasted charred barrels.
 
 **Mint Julep**
 
@@ -43,11 +43,11 @@ Games: Big Jenga, card games, mini-cornhole
 
 **Recipe: Cuban mojo marinade**
 
-1 1/2 lbs chicken breast
-3 oranges, juiced, 1 zested
-3 limes, juiced, 1 zested
-6 cloves of garlic, minced
-1/2 cup olive oil
-1 tbsp cumin
-1 tbsp fresh black pepper
-1 tbsp kosher salt
+* 1 1/2 lbs chicken breast
+* 3 oranges, juiced, 1 zested
+* 3 limes, juiced, 1 zested
+* 6 cloves of garlic, minced
+* 1/2 cup olive oil
+* 1 tbsp cumin
+* 1 tbsp fresh black pepper
+* 1 tbsp kosher salt
