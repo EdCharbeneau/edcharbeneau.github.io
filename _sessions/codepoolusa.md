@@ -10,7 +10,7 @@ Thank you all for joining us [Ed & Sheri Charbeneau] at our home for the Code Pa
 
 ## Cuban mojo chicken wraps with pineapple, roasted red pepper salsa
 
-Sheri and I moved to Kentucky after living in Florida for most of our lives. We missed the Cuban food we were accustom to and started making our own. In 2010 I took my cooking skills to Louisville Master Chef, (then a local TV show) and won with this dish.
+Sheri and I moved to Kentucky after living in Florida for most of our lives. We missed the Cuban food we loved and started making our own. In 2010 I took my cooking skills to Louisville Master Chef, (then a local TV show) and won with this dish.
 
 **Dinner**
 A citrus marinated apple wood grilled chicken, wrapped in a tortilla and topped with smoked pineapple and roasted red pepper salsa.
