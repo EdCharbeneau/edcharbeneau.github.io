@@ -13,7 +13,7 @@
   --mercury-tilt: rotate(0.034deg);
   --mercury-day: 1407.6;
   --mercury-color: #999999;
-  --moon-image: url(./img/locations/moon-texture.jpg);
+  --moon-image: url(https://edcharbeneau.com/css/demos/img/locations/moon-texture.jpg);
   --moon-tilt: rotate(6.7deg);
   --moon-day: 655.7;
   --moon-color: #999999;
@@ -21,11 +21,11 @@
   --venus-tilt: rotate(177.3deg);
   --venus-day: 5832.5;
   --venus-color: #e8cda2;
-  --earth-image: url(./img/locations/earth-texture.jpg);
+  --earth-image: url(https://edcharbeneau.com/css/demos/img/locations/earth-texture.jpg);
   --earth-tilt: rotate(23.26deg);
   --earth-day: 23.9;
   --earth-color: #b3caff;
-  --mars-image: url(./img/locations/mars-texture.jpg);
+  --mars-image: url(https://edcharbeneau.com/css/demos/img/locations/mars-texture.jpg);
   --mars-tilt: rotate(25.2deg);
   --mars-day: 24.6;
   --mars-color: #c07158;
