@@ -9,5 +9,5 @@ node_modules
 .sass-cache
 *.sublime-*
 .jekyll-metadata
-
+*.jekyll-cache*
 /.vs
