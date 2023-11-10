@@ -59,6 +59,9 @@ Blazor Hybrid has massive potential for deploying to web, desktop and mobile fro
 ## Thursday, November 16
 
 Thursday marks the beginning of the second 24 hour stream. All presenters in this 24 hour period are community contributors, content creators, and MVPs.
+**6:30 AM - 7:00 AM EST** | **Migrating a React Application to Blazor**
+
+If you're coming from a React codebase to Blazor, this is the session for you.
 
 **7:00 AM - 7:30 AM EST** | **How to Achieve Optimistic Updates with Blazor and EF Core**
 
