@@ -7,11 +7,13 @@ path: 2023-11-14-integrating-blazor-with-existing-net-web-apps.md
 
 ASP.NET's RazorComponent model is intuitive and brings productivity to web development. In this session we'll learn how **RazorComponents** aren't just for **Blazor** apps and how we can integrate the best part of Blazor with existing ASP.NET applications using: Razor Pages, MVC, and even other front-end technologies.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dE-XCUVCkkE?si=8LGh-q3B6OBpx7r_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Blazor from MVC, Blazor from Razor Pages
 
 Because Blazor is part of ASP.NET Core it is possible to mix UI frameworks such as: ASP.NET MVC (Razor Views), Razor Pages, and Blazor. ASP.NET Core's modular middleware system configures how ASP.NET Core responds to requests and routing, this means we can opt into each UI framework and several routing options.
 
-For instructions on setting up Blazor in an existing app, you can look at the official docs. While the docs here explain in detail how to setup Blazor with a more modern approach that include: Blazor Static Rendering, Server Rendering and WebAssembly. It requires duplicate "layout" pages; one for Razor Components via App and one for .cshtml files.
+For instructions on setting up Blazor in an existing app, you can look at the official docs. 
 
 [Docs: Integrate ASP.NET Core Razor components into ASP.NET Core apps][1]
 
@@ -35,6 +37,10 @@ This example uses the ASP.NET Core React template and Blazor Custom Elements to 
 This example uses the ASP.NET Core Angular template and Blazor Custom Elements to render a Blazor element from Angular.
 
 [https://github.com/danroth27/BlazorCustomElements][7]
+
+Another .NET Conf session covered React Migration in detail. If you are coming from a React application to ASP.NET Core then this session will be interesting to you.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0_yZinJAn7U?si=tWE-9LIxxwa8d6Ya" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Blazor from WebForms
 
