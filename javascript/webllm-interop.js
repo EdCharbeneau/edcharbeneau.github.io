@@ -2,12 +2,12 @@ import * as webllm from "https://esm.run/@mlc-ai/web-llm";
 
 var dotnetInstance;
 var engine;
+
 // Callback function to update model loading progress
 const initProgressCallback = (initProgress) => {
 	//console.log(initProgress);
 	dotnetInstance.invokeMethodAsync("OnInitializing", initProgress);
 }
-//const selectedModel = "Llama-3.1-8B-Instruct-q4f32_1-MLC";
 
 export async function initialize(selectedModel, dotnet) {
 	dotnetInstance = dotnet;
@@ -19,11 +19,26 @@ export async function initialize(selectedModel, dotnet) {
 	);
 }
 
-export async function complete(messages) {
-	//console.log(messages);
-	var reply = await engine.chat.completions.create({
+//export async function complete(messages) {
+//	console.log(messages);
+//	var reply = await engine.chat.completions.create({
+//		messages,
+//	});
+//	console.log(reply);
+//	return reply;
+//}
+
+export async function completeStream(messages, dotnetReceiver) {
+	// Chunks is an AsyncGenerator object
+	const chunks = await engine.chat.completions.create({
 		messages,
+		temperature: 1,
+		stream: true, // <-- Enable streaming
+		stream_options: { include_usage: true },
 	});
-	//console.log(reply);
-	return reply;
+
+	for await (const chunk of chunks) {
+		//console.log(chunk);
+		await dotnetReceiver.invokeMethodAsync("ReceiveChunkCompletion", chunk);
+	}
 }
