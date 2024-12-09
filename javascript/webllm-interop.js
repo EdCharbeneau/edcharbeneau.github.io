@@ -21,6 +21,8 @@ export async function initialize(selectedModel, dotnet) {
 
 export async function completeStream(messages) {
 	// Chunks is an AsyncGenerator object
+  console.log("completeStream");
+  console.log(dotnetInstance);
 	const chunks = await engine.chat.completions.create({
 		messages,
 		temperature: 1,
