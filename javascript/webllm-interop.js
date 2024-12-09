@@ -29,7 +29,8 @@ export async function completeStream(messages) {
 	});
 
 	for await (const chunk of chunks) {
-		//console.log(chunk);
+	  console.log(chunk);
+    console.log(dotnetInstance);
 		await dotnetInstance.invokeMethodAsync("ReceiveChunkCompletion", chunk);
 	}
 }
