@@ -1,7 +1,7 @@
 --- 
 layout: post
-title: Code Pool'usa
-key: cpool
+title: rag-sample
+key: rag-sample
 ---
     <script src="https://cdn.rag.progress.cloud/nuclia-widget.umd.js"></script>
 <nuclia-chat
