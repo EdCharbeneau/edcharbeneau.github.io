@@ -3,7 +3,6 @@ title: Speaking
 layout: page
 class: speaking
 ---
-    <script src="https://cdn.rag.progress.cloud/nuclia-widget.umd.js"></script>
 <nuclia-chat
   audit_metadata='{"config":"nuclia-standard","widget":"stirtrek"}'
   knowledgebox="e8360b71-48cb-4cfb-b049-4d6749c03de3"
